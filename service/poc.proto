@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package b2beauty.poc;
+
+option csharp_namespace = "Services.Poc";
+
+service Logging {
+  /// Used to write a log
+  rpc SendMessage (MessageRequest) returns (MessageResponse) {}
+  rpc ReceiveMessage (MessageRequest) returns (MessageResponse) {}
+}
+
+message MessageRequest {
+  string message = 1;
+}
+
+message MessageResponse {
+  bool success = 1;
+  string message = 2;
+}
