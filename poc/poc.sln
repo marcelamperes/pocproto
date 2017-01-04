@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "server", "server\server.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client", "client\client.csproj", "{6B764983-E9BE-46CD-8C20-1F740AF320E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serverXamarim", "serverXamarim\serverXamarim.csproj", "{99013F77-6121-4CCE-BD11-3571E01C832A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clientXamarin", "clientXamarin\clientXamarin.csproj", "{9412C217-47F3-40A2-BA73-52AC58C02B60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6B764983-E9BE-46CD-8C20-1F740AF320E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B764983-E9BE-46CD-8C20-1F740AF320E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B764983-E9BE-46CD-8C20-1F740AF320E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99013F77-6121-4CCE-BD11-3571E01C832A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99013F77-6121-4CCE-BD11-3571E01C832A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99013F77-6121-4CCE-BD11-3571E01C832A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99013F77-6121-4CCE-BD11-3571E01C832A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9412C217-47F3-40A2-BA73-52AC58C02B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9412C217-47F3-40A2-BA73-52AC58C02B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9412C217-47F3-40A2-BA73-52AC58C02B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9412C217-47F3-40A2-BA73-52AC58C02B60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
